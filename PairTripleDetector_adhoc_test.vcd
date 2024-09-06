@@ -1,0 +1,55 @@
+$date
+	Fri Sep  6 13:55:06 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Top $end
+$var wire 1 ! dut_out $end
+$var reg 1 " dut_in0 $end
+$var reg 1 # dut_in1 $end
+$var reg 1 $ dut_in2 $end
+$scope module dut $end
+$var wire 1 " in0 $end
+$var wire 1 # in1 $end
+$var wire 1 $ in2 $end
+$var wire 1 ! out $end
+$var wire 1 % w $end
+$var wire 1 & x $end
+$var wire 1 ' y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1'
+1%
+1$
+1#
+#20
+0!
+0'
+0$
+#30
+1!
+1'
+1&
+1$
+1"
+#40
